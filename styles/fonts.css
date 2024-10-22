@@ -1,4 +1,23 @@
 @font-face {
+  font-family: 'RiberaPopular';
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: 'Regular';
+  src: url('../fonts/RiberaPopular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Ribera';
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: 'Regular';
+  src: url('../fonts/Ribera.otf') format('opentype');
+}
+
+
+@font-face {
     font-family: 'Inter var';
     font-weight: 100 900;
     font-display: swap;

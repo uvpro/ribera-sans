@@ -1,76 +1,76 @@
-## Portfolio Website For Developers 💯
+# Ribera Typeface
 
-**UPDATE:**
+**Ribera** es una familia tipográfica open-source y libre de uso, inspirada en el espíritu multicultural y dinámico del Puerto de Asunción, Paraguay. Diseñada para transmitir fluidez, historia y modernidad, *Ribera* está pensada para aplicaciones tanto formales como creativas, desde logotipos hasta publicaciones digitales.
 
+![Ribera Typeface](./ribera-preview.png)
 
-1. Wrote a detailed blog on [freeCodeCamp](https://www.freecodecamp.org/news/how-to-build-a-portfolio-site-with-nextjs-tailwindcss/), describing and explaining how I built this application from the ground up.
+---
 
-2. Included the `constants` folder, where you can directly add your details and it'll get reflected throughout the application. No more customizations for the template required, just add your data and it'll reflect immediately.
+## Índice
 
-Portfolio for developers is a simple and minimalistic website to showcase your skills and projects as a developer. The design is inspired by [Kevin Clark](https://kevinclark.ca). The website is completely Open Source, you can use it for whatever purpose you want.
+- [Descripción](#descripción)
+- [Características](#características)
+- [Instalación](#instalación)
+- [Contribuciones](#contribuciones)
+- [Licencia](#licencia)
+- [Créditos](#créditos)
 
-![HomeGif](https://github.com/manuarora700/simple-developer-portfolio-website/blob/main/demo-images/websitegif.gif)
+---
 
-# Features
+## Descripción
 
-- Responsive layout, works well on both Mobile and Desktop
-- Dark mode support. Click buttons to toggle dark mode and light mode.
-- Clear React components and tailwind styling.
-- Exact sections that a developer needs to showcase their skills.
-- Clear call to actions.
+La tipografía *Ribera* nace de la conexión entre lo tradicional y lo moderno, representando la fluidez del agua que rodea el puerto y la multiculturalidad que ha formado parte de su historia. La familia tipográfica incluye dos variantes:
 
-# Pages
+- **Ribera Sans**: Tipografía palo seco, utilizada principalmente en el logotipo. Inspirada en las palabras de bienvenida pintadas en los pilares del puerto.
+- **Ribera Popular**: Una tipografía dinámica y fluida, pensada para textos informales y creativos. Incluye una serie de símbolos y glifos adicionales para complementar su uso.
 
-I've kept the pages as simple as possible. Only the required sections are included with minimal content.
+La intención de *Ribera* es ofrecer una herramienta visual potente, libre y colaborativa, diseñada para crecer y adaptarse a las necesidades de una comunidad creativa global.
 
-## Landing
+---
 
-![Hompage](https://github.com/manuarora700/simple-developer-portfolio-website/blob/main/demo-images/home.png)
+## Características
 
-## About
+- **Multilingüe**: Soporte para caracteres latinos y otros conjuntos de caracteres internacionales.
+- **Flexible**: Ideal tanto para encabezados como para textos largos.
+- **Simbolismo**: *Ribera Popular* incluye símbolos y glifos inspirados en la cultura local.
+- **Libre y Abierta**: Open-source y completamente libre de uso para proyectos personales y comerciales.
+- **Colaborativa**: Buscamos que esta tipografía sea moldeada y mejorada por la comunidad.
 
-![Hompage](https://github.com/manuarora700/simple-developer-portfolio-website/blob/main/demo-images/about.png)
+---
 
-## Projects
+## Instalación
 
-![Hompage](https://github.com/manuarora700/simple-developer-portfolio-website/blob/main/demo-images/projects.png)
+Puedes instalar y utilizar *Ribera* de dos maneras:
 
-## Experience
+### Opción 1: Descargar los archivos
 
-![Hompage](https://github.com/manuarora700/simple-developer-portfolio-website/blob/main/demo-images/experience.png)
+1. Clona el repositorio o descarga el archivo ZIP:
 
-## Contact
+   ```bash
+   git clone https://github.com/uvpro/ribera.git
 
-![Hompage](https://github.com/manuarora700/simple-developer-portfolio-website/blob/main/demo-images/contact.png)
+2. Descomprime los archivos de la carpeta /fonts y utiliza los archivos .ttf o .otf en tus proyectos de diseño.
 
-# Tech Stack
+## Contribuciones
+Ribera es un proyecto open-source y toda contribución es bienvenida. Si quieres ayudarnos a mejorar esta tipografía, sigue estos pasos:
 
-The website is built in my favourite Tech Stack and deployed on [Vercel](https://vercel.com)
+- Haz un fork del repositorio.
+- Crea una rama con el nombre de tu feature: git checkout -b feature/nueva-feature.
+- Realiza tus cambios y haz un commit: git commit -m 'Añadir nueva característica'.
+- Empuja la rama: git push origin feature/nueva-feature.
+- Abre un Pull Request en GitHub para que podamos revisar y fusionar tus cambios.
 
-- [Next.js](https://nextjs.org) for building React Components.
-- [tailwindcss](https://tailwindcss.com) for styling.
-- [React Rough Notation](https://roughnotation.com) for Hero section highlighting.
-- [Vercel](https://vercel.com) for deployments and CI/CD.
+## ¿Cómo puedes contribuir?
+- **Diseño de glifos:** Si tienes habilidades tipográficas, puedes mejorar o expandir el set de caracteres.
+- **Optimización:** Ayúdanos a optimizar el rendimiento y la legibilidad de la tipografía.
+- **Correcciones de bugs:** Si encuentras algún problema o inconsistencia, crea un issue o resuélvelo.
+- **Documentación:* Si te interesa, también puedes colaborar mejorando este README u otra documentación.
 
-# Usage
+## Licencia
+Este proyecto está bajo la licencia MIT, lo que significa que puedes usar la tipografía en proyectos comerciales y personales, modificarla y distribuirla, siempre que se incluya la misma licencia en las copias.
 
-- Clone the repository using `git clone https://github.com/manuarora700/simple-developer-portfolio-website.git`
-- Install all the modules by using `npm i` or `npm install` or `yarn`
-- Run the local development server by using `npm run dev` or `yarn dev`
-- Make the required edits and deploy to YOUR GitHub repo for CI/CD.
+## Créditos
+Ulises Vergara & El Centro Cultural del Puerto
 
-# Deployment
-
-Deployment can be done in 3 easy steps.
-
-- Login to [Vercel](https://vercel.com) or signup for an account if you don't have one.
-- Create a `New Project` and select YOUR GitHub repository of the portfolio project.
-- Wait for Vercel to deploy your project to production.
-
-# License
-
-This template is completely open source and free to use. Use it for client projects or your own portfolio project. Give me credits at the footer (If you wish, it'll help me a lot :)).
-
-# Support
-
-<a href="https://www.buymeacoffee.com/manuarora" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+**Agradecemos a todos los colaboradores y usuarios que ayudan a mejorar Ribera cada día.**
+¡Esperamos que disfrutes usando Ribera tanto como nosotros disfrutamos creándola!

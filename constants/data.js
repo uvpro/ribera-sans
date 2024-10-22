@@ -1,11 +1,11 @@
 const userData = {
-  githubUsername: "manuarora700",
-  name: "Manu Arora",
-  designation: "Full-Stack Developer",
+  githubUsername: "uvpro",
+  name: "Ulises Vergara",
+  designation: "Full-Stack Designer",
   avatarUrl: "/avatar.png",
-  email: "manuarorawork@gmail.com",
-  phone: "+91 9587738861",
-  address: "Jaipur, Rajasthan, India.",
+  email: "contacto@ulises.app",
+  phone: "+595985774074",
+  address: "Asunción, Paraguay.",
   projects: [
     {
       title: "Tailwind Master Kit",
@@ -106,12 +106,12 @@ const userData = {
   resumeUrl:
     "https://drive.google.com/file/d/1xmE3BOmgM7TAOOgVp36xQIQvYDntDYoo/view?usp=sharing",
   socialLinks: {
-    instagram: "https://instagram.com/maninthere",
-    twitter: "https://twitter.com/mannupaaji",
-    linkedin: "https://linkedin.com/in/manuarora28",
-    github: "https://github.com/manuarora700",
+    instagram: "https://instagram.com/sirodiseo",
+    twitter: "https://twitter.com/ulisesverg",
+    linkedin: "https://linkedin.com/in/ulisespro",
+    github: "https://github.com/uvpro",
     facebook: "https://facebook.com/",
-    peerlist: "https://peerlist.io/manuarora",
+    peerlist: "https://peerlist.io/",
   },
 };
 

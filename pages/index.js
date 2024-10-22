@@ -1,35 +1,27 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
-import ContainerBlock from "../components/ContainerBlock";
-import FavouriteProjects from "../components/FavouriteProjects";
-import LatestCode from "../components/LatestCode";
-import Hero from "../components/Hero";
-import getLatestRepos from "@lib/getLatestRepos";
-import userData from "@constants/data";
+import Hero from "../components/HeroRibera.js";
+import Features from "../components/FeaturesRibera";
+import RiberaSans from "../components/RiberaSans";
+import Footer from "../components/Footer";
 
-export default function Home({ repositories }) {
+
+export default function Home() {
   return (
-    <ContainerBlock
-      title="Manu Arora - Developer, Writer, Creator"
-      description="This is a template built specifically for my blog - Creating a developer portfolio that gets you a job."
-    >
+    <div>
+      <Head>
+        <title>Ribera Sans - Tipografía Del Puerto</title>
+        <meta
+          name="description"
+          content="Ribera Sans es una tipografía libre de uso, diseñada para reflejar el espíritu multicultural del Puerto de Asunción."
+        />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+
+      {/* Secciones */}
       <Hero />
-      <FavouriteProjects />
-      <LatestCode repositories={repositories} />
-    </ContainerBlock>
+      <Features />
+      <RiberaSans />
+      <Footer />
+    </div>
   );
 }
-
-export const getServerSideProps = async () => {
-  console.log(process.env.GITHUB_AUTH_TOKEN);
-  let token = process.env.GITHUB_AUTH_TOKEN;
-
-  const repositories = await getLatestRepos(userData, token);
-  // console.log("REPOSITORIES", repositories);
-
-  return {
-    props: {
-      repositories,
-    },
-  };
-};
